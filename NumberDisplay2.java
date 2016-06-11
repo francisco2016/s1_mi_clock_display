@@ -22,7 +22,7 @@ public class NumberDisplay2
      * mt para fijar el valorActual
      */
     public void setValue(int valor){
-        if(valor <= 0 || valor >= limite){
+        if(valor < 0 || valor >= limite){
             valorActual = 12;
         }
         else{
